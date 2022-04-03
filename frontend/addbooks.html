@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add books page</title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <style>
+        a.active{
+            background-color: antiquewhite;
+        }
+   
+
+    </style>
+
+</head>
+<script src="demo.js"></script>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div align="center">
+                <h1 id="h2"> **WELCOME !!!!**  </h1> 
+            </div>
+            <h2 id="logo">Book store</h2>
+                <ul>
+                <input id="btn" type="submit" value="Clear" onclick="location.href='shopowner.html'">
+              </ul>
+
+        </nav>
+        <div class="book">
+             
+            <a class="active" href="addbooks.html"><b>ADD BOOKS</b></a> 
+            <a href="deletebook.html"><b>DELETE BOOK</b></a>
+            <a href="showbooks.html"><b>SHOW BOOKS</b></a>
+           
+       
+        </div>
+    
+    
+    <div align="center">
+         <div class="form">
+            <table border="0px">
+                <tr>
+                   <td> Book image<form name="" method="" action=""></td>
+                      <td>  <input type="file" accept="image/*"></td>
+                    </form>
+                 </tr>
+                <tr>
+                    <td>Book Name</td>
+                    <td><input type="text" id="ab_bn"></td>
+                </tr>
+                <tr>
+                    <td>Publisher</td>
+                    <td><input type="text" id="ab_pub"></td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td><input type="text" id="ab_au"></td>
+                </tr>
+                <tr>
+                    <td>Cost:</td>
+                    <td><input type="text" id="ab_co"></td>
+                </tr>
+                <tr>
+                    <td>Description:</td>
+                    <td><input type="text" id="ab_des"></td>
+                </tr>
+            </table>
+            <span>
+                <input id="btn" type="submit" value="Add Book" onclick="add_book()">
+            </span>
+         </div>
+         </div>
+         </div>
+    
+        
+</body>
+
+</html>

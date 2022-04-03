@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.wrapper{
+    background: url(../Bgimages/book.png) no-repeat;
+    background-size: cover;
+    background-repeat:repeat;
+    background-attachment: fixed;
+    height: 1000vh;
+}
+
+.navbar{
+    height: 100px;
+    width:100%;
+    background: rgba(0,0,0,0.4);
+}
+
+
+#btn{
+    background:cadetblue(65, 12, 38);
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color:cadetblue(243, 210, 22);
+    border-radius:10px;
+    margin: 2px;
+    padding: 10px;
+   
+    text-decoration: none;
+    
+}
+
+
+#btn:hover{
+    transform: scale(1.10);
+}
+.navbar ul{
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+#h2{
+   background-color: blanchedalmond;
+   font-style: italic;
+}
+#logo{
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-style:italic;
+    color: bisque;
+    font-size:xx-large;
+}
+.book a {
+    float: right;
+    text-align: center;
+    color:black;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+    
+.book a {
+    float: none;
+    display:inline-block;
+    text-align: right;
+    margin: 15px;
+    margin-right: 20px;
+    background-color:burlywood;
+  }
+
+  
+table{
+    border: 2px solid rgb(0, 0, 0);
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1%;
+    margin-bottom:13px;
+    box-shadow: 10px 10px 5px rgb(60, 61, 61) ;
+    color: rgb(255, 254, 254);
+    width: 10px 10px;
+    height: 10px 10px;
+    border: 1px solid rgb(250, 248, 248);
+  
+    border-style: groove;
+    
+
+}
+
+th,td{
+    border: 1px solid black;
+    width: 100%;
+    padding: 5px 5px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(255, 249, 249);
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 5px;
+    border-style: inset;
+
+     
+
+}
+tr{
+    color: red;
+}
+
+
+
+
+.form{
+   
+  
+   top: 50px;
+  
+   position:relative;
+   
+   }
+   
+   .tab{
+    background-color: lightgrey;
+   width:800px;
+   top: 20px;
+   border-radius: 10px;
+   padding: 25px;
+   position:relative;
+   border: solid 2px black;
+   }
+
+  .book_image{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    padding-left: 50px;
+  }
+  .container{
+    top: 50%;
+     left:38%;
+     position:relative;
+     width: max-content;
+ }
+ .card{
+     border:1px solid black;
+     width:max-content;
+     text-align: center;
+     display: inline-block;
+     margin: 5px;
+ }
+ 
+ .card img{
+     width: 300px;
+     padding: 5px;
+ }
+ .title{
+     font-weight: bold;
+     margin: 50px;
+ }
+ button{
+     border: 2px solid #e1701a;
+     background: #f7a440;
+     color: white;
+     font-weight: bold;
+     margin: 30px;
+     padding: 5px 10px;
+ }
+ 
+  button:hover{
+      box-shadow: 0 0 5px 5px #e1701a inset
+      ;
+  }
+ 
+  .cart{
+      width: 350px;
+      float: right;
+      text-align: center;
+      border: 1px solid black;
+      overflow-y: scroll;
+      height: 650px;
+  }
+ 
+  .cartImg > img{
+      width: 200px;
+ 
+  }
+  
+ #btn{
+     background:cadetblue(65, 12, 38);
+     font-family: sans-serif;
+     text-align: center;
+     color: rgb(0, 0, 0);
+     font-size: 20px;
+     background-color:cadetblue(243, 210, 22);
+     border-radius:10px;
+     margin: 2px;
+     padding: 10px;
+    
+     text-decoration: none;
+     
+ }
+ 
+ 
+ #btn:hover{
+     transform: scale(1.10);
+ }

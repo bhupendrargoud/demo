@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>showbooks</title>
+    <link rel="stylesheet" href="./Css/file2.css">
+
+
+    <style>
+        a.active{
+            background-color: antiquewhite;
+        }
+   
+
+    </style>
+</head>
+<script src="demo1.js"></script>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div align="center">
+                <h1 id="h2"> **WELLCOME !!!!**  </h1> 
+            </div>
+            <h2 id="logo">Book store</h2>
+                <ul>
+                <input id="btn" type="submit" value="Clear" onclick="location.href='shopowner.html'">
+              </ul>
+
+        </nav>
+        <div class="book">
+             
+            <a  href="addbooks.html"><b>ADD BOOKS</b></a> 
+            <a  href="deletebook.html"><b>DELETE BOOK</b></a>
+            <a class="active" href="showbooks.html"><b>SHOW BOOKS</b></a>
+           
+           
+       
+        </div>
+        <div align="center">
+
+            <div class="form" style="position: relative">
+                <center> <input id="btn" type="submit" value="Click Here" onclick="bk_getall()"/>
+                    <br><br>
+                  
+                </center>
+                <br><br>
+       </div>
+       <span id="b_data"><h1>Books</h1></span>
+      
+</body>
+</html>

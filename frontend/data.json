@@ -1,0 +1,122 @@
+[
+ 
+       {
+         "Name" : "Pathfinder CDS",
+         "Cost" : "₹400",
+         "Publisher" : "Arihant Publications",
+         "Description" : "A book prepared under UPSC guidliness with more than 8000 MCQs." 
+       },
+       
+       {
+         "Name" : "The Night At Deoli",
+         "Cost" : "₹125",
+         "Publisher" : "Penguin",
+         "Author" : "Ruskin Bond",
+         "Description" : "Book with simple heart-warming and thought provoking stories will take you to heavenly grounds of Dehradun and Mussoorie." 
+       },
+         
+         {
+           "Name" : "The Complete Novels of Sherlock Holmes",
+           "Cost" : "₹500",
+           "Publisher" : "Fingerprint Publication",
+           "Author" : "Sir Arthur Conan Doyle",
+           "Description" : "This book is a collection of four novels written by Sir Arthur Conan Doyle."
+         },
+         
+         {
+           "Name" : "Valmiki's Ramayana",
+           "Cost" : "₹1400",
+           "Publisher" : "Amar Chitra Katha",
+           "Author" : "Harini Gopalswami Srinivasan",
+           "Description" : "The Ramayana which is a 6 volume set beautifully illustrated and researched ACK Ramayana brings alive the characters of the world's greatest epic."
+         },
+         
+         {
+           "Name" : "Mahabaratha Vol 1,2,3",
+           "Cost" : "₹1600",
+           "Publisher" : "Amar Chitra Katha Private Limited",
+           "Author" : "Anant Pai",
+           "Description" : "The Mahabaratha is a story of brotherhood deciet love and sacrifice.It is also the setting for the Gita, Lord Krishna's discourse of dharma."
+         },
+         
+         {
+           "Name" : "The Diary of a Young Girl",
+           "Cost" : "₹90",
+           "Publisher" : "Fingerprint Publishing Classic edition",
+           "Author" : "Anne Frank",
+           "Description" : "This book is the diary of young girl Anne Frank.The story begin's on Anne's 13th birthday when she gets a diary."
+         },
+         
+         {
+          "Name" : "Treasure Island",
+           "Cost" : "₹140",
+           "Publisher" : "Fingerprint Publishing first edition",
+           "Author" : "Robert Louis Stevenson",
+           "Description" : "This is the treasure Island anf if you don't think of all this ,the pirates will hunt you down and feed you to the sharks."
+         },
+         
+         {
+           "Name" : "Journey to the Centre of the Earth",
+           "Cost" : "₹150",
+           "Publisher" : "Fingerprint Publishing Latest edition",
+           "Author" : "Jules Verne",
+           "Description" : "Professor Leidenbrock, a man of incredible impatience and Axel, his unadventuorous nephew, come across a coded note in an originic runic manuscript of an Icelandic saga."
+         },
+         
+         {
+           "Name" : "The Alchemist",
+           "Cost" : "₹320",
+           "Publisher" : "Harper; Later Printing Edition",
+           "Author" : "Paulo Coelho",
+           "Description" : "This book is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in serach of a treasure burried in pyramids."
+         },
+         
+         {
+           "Name" : "400 Days",
+           "Cost" : "₹155",
+           "Publisher" : "Westland",
+           "Author" : "Chetan Bhagat",
+           "Description" : "A mystery and Romance story like no other."
+         },
+         
+         {
+           "Name" : "Making India Awesome",
+           "Cost" : "₹78",
+           "Publisher" : "Rupa Publications",
+           "Author" : "Chetan Bhagat",
+           "Description" : "A book that showers light on India's most obstinate snags -unemployement, violence,illiteracy." 
+         },
+         
+         {
+           "Name" : "1984",
+           "Cost" : "₹199",
+           "Publisher" : "Fingerprint Publishing", 
+           "Author" : "George Orwell",
+           "Description" : "1984 is a brilliant, and more importantly, a timeless satirical attack on the social and political structures of the world." 
+         },
+         
+         {
+           "Name" : "The Time Machine",
+           "Cost" : "₹195",
+           "Publisher" : "Fingerprint Publishing",
+           "Author" : "H.G.Wells",
+           "Description" : "A compelling science fiction,with first-hand account of a time travellers journey to the future." 
+         },
+         
+         {
+           "Name" : "Three Thousand Stitches",
+           "Cost" : "₹185",
+           "Publisher" : "Penguin Random House India",
+           "Author" : "Sudha Muurty",
+           "Description" : "So often, it's the simplest acts of courage that touch the lives of others."
+         },
+         
+         {
+           "Name" : "Wise and Otherwise",
+           "Cost" : "₹255",
+           "Publisher" : "Penguin India",
+           "Author" : "Sudha Murty",
+           "Description" : "Understanding human and human nature."
+         }
+         
+        ]

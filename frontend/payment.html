@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PAYMENT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Css/pay.css">
+    <!---we had linked our css file----->
+</head>
+<script src="./js/scrip.js"></script>
+
+<body>
+    <div class="full-page">
+        <div id='login-form' class='login-page'>
+            <div class="form-box">
+                <div class='button-box'>
+                    <div id='btn'></div>
+                    <button type='button' onclick='card()' class='toggle-btn'> CARD</button>
+                    <button type='button' onclick='upi()' class='toggle-btn'> UPI</button>
+                </div>
+                <form id='login' class='input-group-login'>
+                    <input type='text' class='input-field' placeholder='CARD HOLDER NAME' required>
+                    <input type='number' class='input-field' placeholder='CARD NUMBER' required>
+
+                    <br><br>
+                    Expiry Date
+                    <input type="date" required>
+                    <br><br>
+                    <input type="number" placeholder="CVV">
+                    <br><br> <br>
+
+                    <button type='submit' class='submit-btn' onclick="pa()">PAY</button>
+                    <br><br>
+                    <button type='submit' class='submit-btn1' onclick="pac()">CANCEL</button>
+                </form>
+                <form id='register' class='input-group-register'>
+                    <input type='text' class='input-field' placeholder='ENTER UPI ID' required><br><br>
+                    <button type='submit' class='submit-btn' onclick="pa()">PAY</button>
+                    <br><br>
+                    <button type='submit' class='submit-btn1' onclick="pac()">CANCEL</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById('login');
+        var y = document.getElementById('register');
+        var z = document.getElementById('btn');
+        function upi() {
+            x.style.left = '-400px';
+            y.style.left = '50px';
+            z.style.left = '110px';
+        }
+        function card() {
+            x.style.left = '50px';
+            y.style.left = '450px';
+            z.style.left = '0px';
+        }
+     function pa(){
+         alert("payment successful");
+         var url="visitor.html";
+         window.location.replace(url);
+     }
+     function pac(){
+         alert("transaction canceled");
+         var url="visitor.html";
+         window.location.replace(url);
+     }
+    </script>
+
+</body>
+
+</html>

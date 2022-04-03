@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.wrapper{
+    background: url(../Bgimages/bg4.png) no-repeat;
+    background-size:  cover;
+    height: 100vh;
+}
+.navbar{
+    height: 100px;
+    width:100%;
+    background: rgba(0,0,0,0.4);
+}
+#h2{
+    color: plum;
+}
+#logo{
+    color: bisque;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#butn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #eb9029;
+	border-radius: 30px;
+	transition: .5s;
+}
+.submit-btn
+{
+	
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin-top: 50px;
+	background: #eb9029;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}

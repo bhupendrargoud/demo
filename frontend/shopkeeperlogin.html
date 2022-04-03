@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./Css/style1.css">
+  <title>shopkeeper Login Form</title>
+
+</head>
+
+<body>
+ <div align="center">
+ <div class="form">
+   <img src="./Images/avatar.png" >
+  <input type="text" placeholder="Shopkeeper id" id="uid" class="box">
+        <br><br>
+        <input type="password" placeholder="Password" id="pswd" class="box">
+        <br><br>
+       
+       
+    <input type="submit" onclick="sign_inA()" class="login-btn" value="Login">
+</div>
+</div>
+</body>
+<script>
+  function sign_inA() {
+
+console.log("sign in admin");
+
+var ua=document.getElementById("uid").value ;
+var pa=document.getElementById("pswd").value ;
+
+//  var ua="admin";
+//  var pa="a@123";
+
+
+if(ua=="admin" && pa=="a@123")
+{
+    var url="shopowner.html";
+window.location.replace(url);
+
+console.log("admin login");
+}else
+{
+    alert("Invalid data XXX")
+}
+}
+
+</script>
+</html>
