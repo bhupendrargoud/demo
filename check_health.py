@@ -10,7 +10,7 @@ HOST= 'binance-sg.c1cuigqameya.ap-southeast-1.rds.amazonaws.com'
 USER= 'admin'
 PASSWORD= 'rerwaP-myfbu7-pergad'
 HEALTH_CHECK_URL= 'https://api-sg.thereward.store/health'
-SLACK_WEBHOOK_URL = 'https://hooks.slack.com/servNMQ94/B07CLAQ8F0F/srcCvPzPB8kICYAhVGPLfAgc'
+SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/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'
 
 def check_health():
     # Get the current timestamp
