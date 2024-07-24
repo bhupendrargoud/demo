@@ -6,7 +6,7 @@ USER=admin
 PASSWORD=rerwaP-myfbu7-pergad
 HEALTH_CHECK_URL=https://api-sg.thereward.store/health
 
-SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
 
 # Execute the MySQL query to get max_connections and Threads_connected
 RESULT=$(mysql -h $HOST -u $USER -p$PASSWORD  -se "
@@ -35,10 +35,6 @@ if [ -n "$HEALTHY" ]; then
 else
   HEALTH_STATUS="unhealthy"
 fi
-
-
-CURRENT_TIMESTAMP=$(date +%s)
-DELAY_THRESHOLD=$((5 * 60)) # 5 minutes in seconds
 
 
 # Check if the percentage exceeds 60% or health status is unhealthy

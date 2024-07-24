@@ -3,5 +3,5 @@
 while true
 do
     ./test-sql.sh
-    sleep 120
+    sleep 300
 done
